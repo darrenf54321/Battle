@@ -1,5 +1,6 @@
 <%= @player_1_name %> vs. <%= @player_2_name %>
 
-<%= @player_1_name %>: 5HP : <%= @player_2_name %>: 2HP
+<%= @player_1_name %>: 50HP : <%= @player_2_name %>: 20HP
 
-<a href="/attack">Attack</a>
+<form action = "/play" method = "post">
+  <input type="button" value ="ok">
