@@ -1,6 +1,6 @@
-<%= @player_1.name %>: <%=@player_1.hit_points%>HP
-<%= @player_2.name %>:<%=@player_2.hit_points%>HP
-<%=@player_1.name %> has attacked <%=@player_2.name%>!
+<%= @game.player_1.name %>: <%=@game.player_1.hit_points%>HP
+<%= @game.player_2.name %>:<%=@game.player_2.hit_points%>HP
+<%=@game.player_1.name %> has attacked <%=@game.player_2.name%>!
 
 <form action = "/play" method = "get">
   <input type="submit" value ="OK">
