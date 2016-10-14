@@ -1,5 +1,6 @@
 <%= @game.player_1.name %> vs. <%= @game.player_2.name %>
 
+<<<<<<< HEAD
 <div>
 <%= @game.current_turn.name%>'s HP: <%=@game.current_turn.hit_points %>
 </div>
@@ -13,4 +14,13 @@
 
 <form action = '/attack' method = "get">
   <input type = "submit" value = "Attack"> </input>
+=======
+<%= @game.player_1.name %>: <%= @game.player_1.hit_points %>hp
+<%= @game.player_2.name %>: <%= @game.player_2.hit_points %>hp
+
+It's <%=@game.current_turn.name%>'s turn!
+
+<form action="/attack" method="post">
+  <input type='submit' value='Attack'>
+>>>>>>> a1a9dd8a5a6185509ce9292e43625258e0788008
 </form>

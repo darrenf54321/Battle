@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # battle
 
 rspec_sinatra initialise with 'bundle exec rspec --init'
@@ -15,3 +16,6 @@ Every Capybara feature test involves this process:
 
 What does the user have to do?
 What does the user expect to see?
+=======
+Battle
+>>>>>>> a1a9dd8a5a6185509ce9292e43625258e0788008
